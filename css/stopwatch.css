@@ -1,0 +1,93 @@
+body{
+            background-color: #2428a5;
+            font-family: Arial, sans-serif;
+        }
+        .head{
+            color: #b871ff;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .parent{
+            height:100px;
+            width:40%;
+            align-content: center;
+            padding-left: 20px;
+            font-size: 5rem;
+            color: #f6c700;
+            margin: auto;
+            text-align: center;
+        }
+        span{
+            display: inline-block;
+            height:100%;
+            width:27%;
+            text-align: center;
+            align-content: center;
+            font-size: 100px;
+        }
+        .imgcls{
+            height:50px;
+            width:30%;
+            margin: auto;
+            margin-top:50px;
+            display: flex;
+            justify-content: space-between;
+            position:relative;
+        }
+        .imgcls>img{
+            cursor: pointer;
+            transition: all  0.1s linear;
+        }
+        img:hover{
+             transform: scale(1.1);
+        }
+        .imgcls>.stop{
+            height:inherit;
+            display: none;
+        }
+        .container,.laphead{
+            height:auto;
+            width:40%;
+            margin: auto;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .container{
+            margin-top: 10px;
+        }
+        .lapcountContainer,.lapcounthead{
+            height:inherit;
+            width:35%;
+        }
+        .laptimerContainer{
+            height:inherit;
+            width:45%;
+        }
+        .lapentry,.laptimerentry,.lapcounthead{
+            height:40px;
+            margin-bottom: 10px;
+            width:100%;
+            font-size: 2rem;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px black;
+            text-align: center;
+        }
+        .lapcounthead,.laptimerhead{
+            font-size: 2rem;
+            box-shadow: none;
+            font-weight: bolder;
+        }
+        .lapcounthead{
+            width:35%;
+        }
+        .laptimerhead{
+            width:45%;
+        }
+        .lapentry,.laptimerhead{
+            color: #ff7f7f;
+        }
+        .laptimerentry,.lapcounthead{
+             color: #ffc300;
+        }
