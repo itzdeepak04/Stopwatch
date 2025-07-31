@@ -29,7 +29,7 @@ let milisecond=document.querySelector(".milisecond")
                 milicount=0;
                  second.innerText= (seccount<9)? `0${++seccount}`: ++seccount;
             }
-             milisecond.innerText= (milicount<9)? `0${milicount++}`: milicount++;
+             milisecond.innerText= (milicount==10)? `0${milicount++}`: milicount++;
            },10)
            start.style.display="none";
             stop.style.display="inline-block";
