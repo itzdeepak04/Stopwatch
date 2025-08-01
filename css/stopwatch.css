@@ -38,12 +38,10 @@ body{
             display: flex;
             justify-content: space-between;
             position:relative;
-            border: 1px solid black;
         }
         .imgcls>img{
             cursor: pointer;
             transition: all  0.1s linear;
-            border: 1px solid black;
         }
         img:hover{
              transform: scale(1.1);
@@ -59,7 +57,6 @@ body{
             margin-top: 50px;
             display: flex;
             justify-content: space-between;
-            border: 1px solid black;
         }
         .container{
             margin-top: 10px;
@@ -67,12 +64,10 @@ body{
         .lapcountContainer,.lapcounthead{
             height:inherit;
             width:35%;
-            border: 1px solid black;
         }
         .laptimerContainer{
             height:inherit;
             width:45%;
-            border: 1px solid black;
         }
         .lapentry,.laptimerentry,.lapcounthead,.laptimerhead{
             height:40px;
@@ -82,7 +77,6 @@ body{
             border-radius: 10px;
             box-shadow: 0px 0px 10px black;
             text-align: center;
-            border: 1px solid black;
         }
         .lapcounthead,.laptimerhead{
             font-size: 2rem;
@@ -107,8 +101,6 @@ body{
                 margin-top: 10px;
             }
             .time{
-                border: 1px solid black;
-
                 font-size: 3rem;
             }
             .imgcls{
